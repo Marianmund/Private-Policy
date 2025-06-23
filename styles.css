@@ -1,0 +1,466 @@
+/*#########################
+ 
+  CSS File
+ 
+########################*/
+ 
+ 
+/*########## fonts ##########*/
+ 
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  .jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+/*########## Headings and Titles Text Block / Information ##########*/  
+.title{
+    column-span: all;
+    display: block;
+}
+ 
+ 
+/*########## Text Blocks / Information ##########*/
+.paragraph{
+    columns: 200px 2;
+    column-gap: 30px;
+    color: #333745;
+    padding: 25px;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.textblock{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    color: #EEEBE8;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 115%;
+
+    columns: 200px 2;
+    column-gap: 30px;
+    color: #333745;
+    padding: 25px;
+}
+
+.textblock2{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    color: #EEEBE8;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 115%;
+
+
+    color: #333745;
+    padding: 25px;
+}
+
+.textblock2 h1{
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.textblock2 a{
+    color: #333745;
+    display: block;
+    padding: 14px;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+.textblock2 a:hover{
+    background-color: #D55F8F;
+    color: white;
+    transition: 0.2s ease;
+    border-radius: 2px;
+}
+ 
+ 
+/*########## Defaults ##########*/
+details:hover {
+    transition: 0.3 ease;
+    transform: translate(5px);
+    background-color: #D55F8F;
+    color: #D5CCCC;
+}
+
+details[open] summary{
+    font-weight: 800;
+}
+
+details {
+    transition: 0.3s ease;
+}
+
+.details[open] {
+    border: 2px solid #333745;
+}
+
+
+summary {
+    cursor: pointer;
+}
+
+.lownav{
+    background-image: url(Datenschutz.png);
+    background-size: fill;
+    background-position-x: center;
+    background-attachment: fixed; 
+    position: relative;
+
+
+}
+
+main h1{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #333745;
+    
+ 
+   
+}
+.lownav h1{
+    display: block;
+    font-size: 400%;
+    text-shadow: 5px 4px 5px #333745;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #D55F8F;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+ 
+   
+}
+
+nav,
+header,
+footer {
+    display: block;
+}
+ 
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #D5CCCC;
+}
+
+body mark {
+    background-color: #D55F8F;
+    color: #D5CCCC;
+    padding: 0 0.2em;
+    border-radius: 3px;
+}
+
+ul.topnav h1{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #EEEBE8;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+.themen {
+    text-align: left;
+}
+
+#resultMessage {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #888;
+    transition: opacity 0.3s ease;
+  }
+
+/*########## Nav Bar ##########*/
+ 
+nav {
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+ 
+nav ul {
+    background-color: #333745;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ 
+nav ul li {
+    list-style: none;
+ 
+}
+ 
+.topnav li {
+    list-style: none;
+    float: left;
+}
+ 
+ul.topnav li.topnav-right {
+    float: right;
+ 
+}
+ 
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #EEEBE8;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    transition: 0.2s ease;
+ 
+}
+ 
+ul.topnav li a:hover {
+    background-color: #D55F8F;
+    color: white;
+    transition: 0.2s ease;
+    border-radius: 2px;
+}
+ 
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+ul.topnav h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+ul.topnav h1 a:hover{
+    background: none !important;
+    text-shadow: 0 0 5px violet;
+    transition: 0.2s ease;
+    
+}
+
+.topnav{
+    align-items: center;
+    
+}
+ 
+/*########## mobile ##########*/
+ 
+@media screen and (max-width: 1000px) {
+    ul.topnav li:not(:nth-child(1)) {    
+        display: none;
+    }
+
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    .textblock {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .textblock h1 {
+        text-align: left;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .textblock2 {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .textblock2 h1 {
+        text-align: left;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .lownav h1 {
+        font-size: 200%;
+    }
+
+    details[open] {
+        padding: 5px;
+        transition: 0.1s ease;
+    }
+}
+ 
+
+/*########## Buttons ##########*/
+
+.button{
+    padding: 1em 2em;
+    background-color: #333745;
+    border: none;
+    border-radius: 1000px;
+    color: #D5CCCC;
+    font-family: 'Segoe UI', Tahoma, Geneva;
+    position: relative;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button::after{
+    content: '';
+    position: absolute;
+    height: 110%;
+    width: 104%;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom right, #D55F8F, #333745);
+    z-index: -1;
+}
+
+.button:hover{
+    z-index: 0;
+    box-shadow: 40px 0 100px #D55F8F, -40px 0 100px  #333745;
+}
+
+.button2{
+    padding: 1em 2em;
+    background-color: #161a20;
+    border: none;
+    border-radius: 1000px;
+    color: #EEEBE8;
+    font-family: 'Segoe UI', Tahoma, Geneva;
+    position: relative;
+    cursor: pointer;
+    border-radius: 1000px;
+    z-index: 0;
+
+}
+
+.button2::after{
+    content: '';
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 1000px;
+    background: #333745;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+button::before{
+    content: '';
+    background: linear-gradient(
+        45deg,
+        #FF0000, #FF7300, #FFFB00, #48FF00,
+        #00FFD5, #002BFF, #FF00C8, #FF0000,
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    
+
+}
+
+
+/*############## Footer  ##########*/
+.project-footer {
+    padding: 1.5rem;
+    background-color: #333745; 
+    color: #EEEBE8;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: center;
+    border-top: 2px solid #ccc;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .project-footer hr {
+    margin: 1rem auto;
+    width: 60%;
+    border: none;
+    border-top: 1px solid #aaa;
+  }
+  
+
