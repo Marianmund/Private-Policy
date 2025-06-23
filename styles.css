@@ -289,7 +289,7 @@ ul.topnav h1 a:hover{
  
 /*########## mobile ##########*/
  
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1290px) {
     ul.topnav li:not(:nth-child(1)) {    
         display: none;
     }
