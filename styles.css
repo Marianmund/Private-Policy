@@ -357,6 +357,10 @@ ul.topnav h1 a:hover{
         padding: 5px;
         transition: 0.1s ease;
     }
+    details:hover {
+        transition: 0.3 ease;
+        transform: none;
+    }
 }
  
 
